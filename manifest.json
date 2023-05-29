@@ -1,0 +1,9 @@
+{
+    "name": "PWA Homwork",
+    "short_name": "PWA Homwork",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A readable Hacker News app."
+  }
+  

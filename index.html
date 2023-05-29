@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" manifest="offline.appcache">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="manifest" href="manifest.json" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Social Media Analyzer | PWA HW </title>
+
+    </head>
+    <body>
+        <h1>Social Media Analyzer</h1>
+        <h2>Fill out your weekly time for each app in minutes:</h2>
+        <div class="apps-container">
+            <label for="instagram">Instagram:</label>
+            <input type="text" id="instagram" />
+            <label for="youtube">YouTube:</label>
+            <input type="text" id="youtube" />
+            <label for="tiktok">TikTok:</label>
+            <input type="text" id="tiktok" />
+            <label for="bereal">BeReal:</label>
+            <input type="text" id="bereal" />
+            <label for="facebook">Facebook:</label>
+            <input type="text" id="facebook" />
+            <label for="whatsapp">WhatsApp:</label>
+            <input type="text" id="whatsapp" />
+        </div>
+        <div class="actions-wrapper">
+            <button id="calculate-btn">Calculate</button>
+        </div>
+        <div id="result"></div>
+
+
+
+        <div class="pwa-actions-wrapper">
+            <h3>PWA buttons</h3>
+            <button id="install-button">Another Install Button</button>
+            <button id="push-button">Push Permission Button</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
